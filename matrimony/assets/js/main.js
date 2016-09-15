@@ -79,33 +79,43 @@ $(document).ready(function() {
     /* ======= Google Map ======= */
     map = new GMaps({
         div: '#map',
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 31.511575,
+        lng: 74.345334,
         scrollwheel: false,
-        zoom: 14,
+        zoom: 12,
     });
-    
+    //garison golf club
     map.addMarker({
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 31.542527,
+        lng: 74.395277,
         verticalAlign: 'top',
-        title: 'Ceremony Location',  
+        title: 'Barat Location',  
         infoWindow: {
-            content: '<div class="note">Ceremony</div><h4 class="map-title script">St Paul\'s Church</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Ceremony</div><h4 class="map-title script">Garrison golf and country club lahore</h4><div class="address"><span class="region"></span><br><span class="postal-code"></span><br><span class="city-name"></span></div>'
         }
         
         
     });
     
-
+    //askari 10
     map.addMarker({
-        lat: 50.969747,
-        lng: -3.199985,
+        lat: 31.536059,
+        lng: 74.414546,
         title: 'Reception Location',      
         infoWindow: {
-            content: '<div class="note">Reception</div><h4 class="map-title script">The Manor House</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Reception</div><h4 class="map-title script">Askari X marquee</h4><div class="address"><span class="region"></span><br><span class="postal-code"></span><br><span class="city-name"></span></div>'
         } 
         
+    });
+    //gourmet marquee
+    map.addMarker({
+        lat: 31.466600, 
+        lng: 74.308814,
+        title: 'Reception Location',
+        infoWindow: {
+            content: '<div class="note">Reception</div><h4 class="map-title script">Gourmet Broadway Marquee</h4><div class="address"><span class="region"></span><br><span class="postal-code"></span><br><span class="city-name"></span></div>'
+        }
+
     });
     
     /*display marker 1 address on load */
