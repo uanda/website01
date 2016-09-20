@@ -548,7 +548,7 @@ label {
 }
 /* ======= Story Section ======= */
 .story-section {
-  background: #413a38 url('../images/story-bg.jpg') no-repeat 50% top;
+  background: #413a38 url('../images/story-bg02.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -750,7 +750,7 @@ label {
   margin-left: -163px;
   width: 326px;
   height: 304px;
-  background: transparent url('../images/heart-couple-pink.png') no-repeat center center;
+  background: transparent url('../images/heart-couple-red01.png') no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
